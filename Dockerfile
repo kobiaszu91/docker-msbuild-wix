@@ -1,6 +1,6 @@
 # escape=`
 
-FROM microsoft/dotnet-framework:4.7.2-sdk
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.8.1
 
 # Copy the .NET 3.5 on demand package and Wix Build Toolset binaries
 ADD microsoft-windows-netfx3-ondemand-package.cab C:\Build_Tools\microsoft-windows-netfx3-ondemand-package.cab
